@@ -3,8 +3,7 @@
 
     if(isset($_SESSION['id']) && $_SESSION['nome'] == true){
         header("Location: user.php");      
-    }
-    
+    }    
 ?>
 <!DOCTYPE html>
 <html>
