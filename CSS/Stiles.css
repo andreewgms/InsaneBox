@@ -1,0 +1,120 @@
+/* 
+	Styles sheets of the site:
+	keep in order like down
+
+*/
+@font-face{
+	font-family: 'Carnevalee Freakshow';
+	src: url('./Carnevalee_Freakshow.ttf') format('truetype');
+}
+input::placeholder{
+	text-align: center;
+}
+
+/*
+	Html tags:
+*/
+body {
+	background-color: black;
+	margin: 0;
+}
+	
+p {
+	
+	font-size: 1em;
+}
+h1, h2, h3, h4 {
+	font-family: Carnevalee Freakshow, sans-serif;
+	color: white;
+}
+h2{
+	font-size: x-small;
+}
+
+/*
+
+	intern compounds of page
+
+*/
+#bg-video {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
+#title-img {
+	display: block;
+	margin: auto;
+	top: 2;
+	max-width: 33.33%;
+}
+#play-btn {
+	display: block;
+	margin: auto;
+	max-width: 16.66%; /*last 16.66%*/
+	position: absolute;
+	left: 50%;
+	bottom: 20%;
+	transform: translateX(-50%);
+	z-index: 1;
+}
+#audio-control {
+	position: fixed;
+	top: 1%;
+	right: 1%;
+	z-index: 2;
+}
+
+
+/*
+
+	Login Page
+
+*/
+
+#login-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 33.33%;
+	padding-top: 2%;
+}
+#login-form input[type="text"],
+#login-form input[type="password"] {
+	margin-bottom: 1%;
+	width: 35%;
+	padding: 1%;
+	font-size: 24px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	font-family: Carnevalee Freakshow, sans-serif;
+}
+
+/*
+	cadastro
+*/
+
+
+
+/*
+	Botão de submit do login e cadastro:
+
+button[type="submit"] {
+  	border: 3px solid #000; /* Define a borda espessa 
+  	width: 35%; /* Define o tamanho do botão em 33% em relação à div 
+  	height: 2em; 
+	border-radius: 10px; /* Define os cantos arredondados 
+	font-size: 28px; /* Define o tamanho da fonte como 28px 
+    font-family: 'Carnevalee Freakshow', sans-serif; /* Define a fonte personalizada 
+}*/
+
+
+/*
+*	compounds of user page, copied by the original html legacy page:
+*/
+

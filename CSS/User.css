@@ -1,0 +1,126 @@
+@font-face{
+	font-family: 'Carnevalee Freakshow';
+	src: url('./Carnevalee_Freakshow.ttf') format('truetype');
+}
+body{
+	background-color: #000000;
+	
+	font-family: Carnevalee Freakshow, sans-serif;
+}
+p {
+	font-family: Carnevalee Freakshow, sans-serif;
+	font-size: 24px;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	
+	margin: 0 auto;
+	background-color: #000000;
+	padding: 20px;
+	text-align: center;
+	background-image: url(../BG-USER-2.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+.dados-usuario {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+.dados-usuario p{
+	text-shadow: -1px -1px 0px #FFF, 
+               -1px 1px 0px #FFF,                    
+                1px -1px 0px #FFF,                  
+                1px 0px 0px #FFF;
+}
+.button {
+	display: inline-block;
+	background-color: #808080;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 10px;
+	margin-right: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: Carnevalee Freakshow, sans-serif;
+
+}
+	.button:hover {
+		background-color: #FFFFFF;
+		color: black;
+	}	
+.photo {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin-top: 20px;
+}
+.name {
+	font-family: Carnevalee Freakshow, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 10px;
+	color: black;
+}
+.points {
+	font-size: 18px;
+	color: black;
+	margin-top: 5px;
+}
+.user-photo{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin-top: 20px;
+}
+.video {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
+h1{
+	text-shadow: -1px -1px 0px #FFF, 
+               -1px 1px 0px #FFF,                    
+                1px -1px 0px #FFF,                  
+                1px 0px 0px #FFF;
+	color: black;
+	font-family: Carnevalee Freakshow, sans-serif;
+}
+#form-doacao, 
+#form-projeto, 
+#form-participacao{
+	width: 60%;
+	margin: 0 auto 0;
+	text-align: right;
+	background-color: transparent;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-radius: 10px;
+}
+#form-doacao input, 
+#form-projeto input, 
+#form-participacao input {
+	width: 10em;
+	height: 2em;
+}
+#form-doacao label, 
+#form-projeto label, 
+#form-participacao label {
+	text-shadow: -1px -1px 0px #FFF, 
+               -1px 1px 0px #FFF,                    
+                1px -1px 0px #FFF,                  
+                1px 0px 0px #FFF;
+}
