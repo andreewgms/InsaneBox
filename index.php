@@ -65,7 +65,7 @@
         </div>
         <div class="col d-none d-md-block">
             <p style="font-family: Carnevalee Freakshow, sans-serif;text-align: center;">
-                    Temporada 0.1
+                    Temporada de testes
             </p>
         </div>
     </div>
