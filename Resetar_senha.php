@@ -1,7 +1,6 @@
 <?php
     //require "verifica_login.php";
     session_start();
-    
 ?>
 <!DOCTYPE html>
 <html>

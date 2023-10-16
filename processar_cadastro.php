@@ -4,7 +4,6 @@ session_start();
 
 if(isset($_SESSION['id']) && $_SESSION['nome'] == true){
     header("Location: User.php");
-    
 }
 
 // Verificar se o formulário foi enviado

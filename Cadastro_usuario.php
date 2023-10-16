@@ -1,8 +1,6 @@
 <?php
     session_start();
-    if (isset($_SESSION['id']) && $_SESSION['nome'] == true){
-        header("Location: User.php");
-    }//finish
+    
 ?>
 
 <!DOCTYPE html>
@@ -15,20 +13,29 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     </head>
 
-    <body>
-        <video autoplay muted loop id="bg-video">
-            <source src="VIDEOBK.mp4" type="video/mp4">
-        </video>
-        <div class="container">
-            <div class="row">
-                
-            </div>
-            <div class="row position-relative">
-                <!-- IMAGEM DE TITULO DO SITE -->
+    <body class="text-center">
+	<div class="container-fluid d-flex justify-content-center">
+		<video autoplay muted loop id="bg-video">
+			<source src="VIDEOBK.mp4" type="video/mp4">
+		</video>
+
+		<div class="container" style="
+            height: 176vw;
+            width: 100%;
+            display: flex;
+            align-content: center;
+            gap: 15px;
+            flex-direction: column;
+            justify-content: center;
+        ">
+            
+            <div class="row container-fluid d-flex justify-content-center">
+				<div class="col-sm-12 col-md-6">
                 <a href="./index.php">
-                    <img id="title-img" src="TITLE.png">
-                </a>
-            </div>
+					    <img src="TITLE.png" height="70%" width="70%" class="">
+                    </a>
+				</div>
+			</div>
             <div class="row">
                 <div class="col-md-3"></div>
                 <div class="col-md-6 bg-secondary">

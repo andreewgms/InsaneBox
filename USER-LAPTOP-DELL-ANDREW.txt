@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User - Insane Box</title>
+    <style>
+      body {
+        background-color: black;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        color: white;
+      }
+
+      #user-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 33.33%;
+        padding-top: 2%;
+      }
+
+      #user-info img {
+        max-width: 25%;
+        border-radius: 50%;
+      }
+
+      #user-info h1 {
+        font-size: 36px;
+        margin-left: 2%;
+      }
+
+      #user-info h2 {
+        font-size: 24px;
+        margin-left: 2%;
+      }
+
+      #user-info p {
+        margin-left: 2%;
+      }
+
+      #buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 33.33%;
+        padding-top: 2%;
+      }
+
+      #buttons button {
+        margin-right: 1%;
+        margin-left: 1%;
+        padding: 1%;
+        font-size: 18px;
+        background-color: #fff;
+        color: #000;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+      }
+
+      #premio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 33.33%;
+        padding-top: 2%;
+      }
+
+      #premio h1 {
+        font-size: 48px;
+        margin-bottom: 2%;
+      }
+
+      #premio p {
+        font-size: 24px;
+      }
+
+      #inbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 33.33%;
+        padding-top: 2%;
+      }
+
+      #inbox h2 {
+        font-size: 24px;
+        margin-bottom: 2%;
+      }
+
+      #inbox input[type="text"] {
+        margin-bottom: 1%;
+        padding: 1%;
+        font-size: 18px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+      }
+
+      #inbox textarea {
+        margin-bottom: 1%;
+        padding: 1%;
+        font-size: 18px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+      }
+
+      #inbox button {
+        margin-top: 2%;
+        padding: 1%;
+        font-size: 18px;
+        background-color: #fff;
+        color: #000;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>User - Insane Box</h1>
+    </header>
+
+    <div id="user-info">
+      <img src="user.png">
+      <div>
+        <h1>ADMIN</h1>
+        <h2>Pontos: 521</h2>
+        <p>Último login: 03/05/2023</p>
+      </div>
+    </div>
+
+    <div id="buttons">
+  <button>Doação</button>
+  <button>Projeto</button>
+  <button>Participação</button>
+</div>
