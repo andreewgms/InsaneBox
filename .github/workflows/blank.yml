@@ -13,4 +13,4 @@ jobs:
         host: ${{ secrets.HOST }} 
         user: ${{ secrets.USER }}
         password: ${{ secrets.PASS }}
-        localDir: "/home/insanebox1/public_html/InsaneBox"
+        localDir: "/public_html/InsaneBox"
